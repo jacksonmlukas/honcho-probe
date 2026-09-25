@@ -74,3 +74,17 @@ See dream_out.md.
 
 n=3 per cell. One peer. Managed tier, defaults otherwise. The code notes are from reading the open-source server;
 the managed deployment may differ in config. Nothing here is a claim about the published benchmarks.
+
+## After a manual dream (dream_out.md)
+
+`schedule_dream` ran on the managed tier. Afterwards: the explicit list dropped from nine to six (Boston, the Charles
+run, and "sad to lose the river runs" were removed), five deductive observations appeared with premises, including
+one that states outright "maya's current location and job supersede her Boston situation", four inductive patterns
+with confidence tags (low/medium/high), and a peer card with Location: Chicago. `include_evidence` now returned 15
+conclusions and zero messages, so the answer came from the representation alone.
+
+Two things worth noting. Every observation still carries the same timestamp; dreaming resolved Boston vs Chicago
+from the wording ("moving next week", "settled now"), not from time. The timestamp fix matters for the case where
+the wording doesn't carry the order. And one inductive pattern is tagged [high] confidence — "makes major life
+changes in rapid succession" — from a single ten-message episode. Whether that confidence is earned is exactly the
+kind of fidelity question a representation-level eval should score.
